@@ -1,6 +1,7 @@
 import { Separator } from "@/components/ui/separator";
-import { Article, getAllArticles, getArticleBySlug } from "@/lib/articles";
+import { getArticleBySlug } from "@/lib/articles";
 import Image from "next/image";
+import { notFound, useRouter } from "next/navigation";
 import { remark } from "remark";
 import html from "remark-html";
 
@@ -10,7 +11,10 @@ export default async function ArticlePage({
     params: Promise<{ slug: string }>;
 }) {
     const slug = (await params).slug;
-    const article = getArticleBySlug(slug);
+    const article = await getArticleBySlug(slug);
+    if (!article) {
+        notFound();
+    }
     const contentHtml = (
         await remark().use(html).process(article.content)
     ).toString();

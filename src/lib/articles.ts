@@ -1,6 +1,6 @@
 import path from "path";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 
 export interface Article {
     slug: string;
@@ -31,8 +31,11 @@ export function getAllArticles() {
     });
 }
 
-export function getArticleBySlug(slug: string): Article {
+export function getArticleBySlug(slug: string): Article | null {
     const filePath = path.join(articlesDirectory, `${slug}.md`);
+    if (!fs.existsSync(filePath)) {
+        return null;
+    }
     const fileContents = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(fileContents);
 
