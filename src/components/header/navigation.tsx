@@ -32,7 +32,7 @@ export function Navigation() {
     const pathname = usePathname();
 
     return (
-        <NavigationMenu className="max-w-5xl">
+        <NavigationMenu className="sm:max-w-5xl w-full px-6">
             <NavigationMenuList className="flex">
                 {components.map((component) => (
                     <Link

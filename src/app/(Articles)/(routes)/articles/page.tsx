@@ -18,7 +18,7 @@ export default async function ArticlesPage() {
     return (
         <>
             <div className="space-y-12">
-                <h2 className="text-5xl font-normal">Projetos</h2>
+                <h2 className="text-5xl font-normal">Artigos</h2>
                 <section className="grid grid-cols-1 gap-8">
                     {articles.map((article: Article) => (
                         <Card

@@ -1,6 +1,7 @@
 ---
 title: "Resumo do Meu Ano na Faculdade"
 description: "Este ano foi uma jornada de desafios, aprendizado e crescimento na faculdade. Neste artigo, compartilho um pouco sobre como foi essa experiência."
+image: /static/img/posts/first-year-college.jpg
 date: "2025-01-13"
 ---
 

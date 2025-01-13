@@ -1,3 +1,4 @@
+import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { getArticleBySlug } from "@/lib/articles";
 import Image from "next/image";
@@ -23,7 +24,7 @@ export default async function ArticlePage({
         <div>
             <>
                 <div
-                    className={`-z-20 flex flex-col items-center justify-center gap-8 ${
+                    className={`-z-20 flex flex-col items-center justify-center pt-24 gap-8 ${
                         article.image
                             ? "absolute h-[90vh] left-0 top-0 w-full"
                             : " mb-24"
@@ -37,10 +38,14 @@ export default async function ArticlePage({
                             alt={article.slug}
                         />
                     )}
-                    <h2 className="text-5xl text-center font-bold">
-                        {article.title}
-                    </h2>
-                    <p>{new Date(article.date).toLocaleDateString("pt-BR")}</p>
+                    <div className="flex flex-col items-start gap-4">
+                        <Badge className="text-xl">
+                            {new Date(article.date).toLocaleDateString("pt-BR")}
+                        </Badge>
+                        <h2 className="text-5xl text-center font-bold">
+                            {article.title}
+                        </h2>
+                    </div>
                     {article.tags?.map((tag) => (
                         <span
                             key={tag}
