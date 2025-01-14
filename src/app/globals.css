@@ -85,22 +85,46 @@ body {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    line-height: 48px;
+}
+
+.markdown-content a {
+    color: #0e76ff;
+    text-decoration: underline;
 }
 
 .markdown-content h2 {
     color: #f2b872;
     font-size: 2.5rem;
+    font-weight: 500;
     margin-bottom: 0.75rem;
+    line-height: 48px;
 }
 
 .markdown-content h3 {
     color: #55d9b3;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
+    line-height: 48px;
 }
 
 @media (max-width: 500px) {
     html {
         font-size: 87.5%;
+    }
+
+    .markdown-content h1 {
+        font-size: 2.25rem;
+        line-height: 32px;
+    }
+
+    .markdown-content h2 {
+        font-size: 1.75rem;
+        line-height: 32px;
+    }
+
+    .markdown-content h3 {
+        font-size: 1.5rem;
+        line-height: 32px;
     }
 }

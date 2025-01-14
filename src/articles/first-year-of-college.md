@@ -1,52 +1,50 @@
 ---
-title: "Resumo do Meu Ano na Faculdade"
-description: "Este ano foi uma jornada de desafios, aprendizado e crescimento na faculdade. Neste artigo, compartilho um pouco sobre como foi essa experiência."
-image: /static/img/posts/first-year-college.jpg
-date: "2025-01-13"
+title: "Meu Primeiro Ano na Faculdade"
+description: "Explore como foi meu primeiro ano na faculdade, uma experiência cheia de aprendizados, desafios e conquistas que marcaram o início da minha trajetória acadêmica."
+image: "/static/img/posts/first-year-college.jpg"
+date: "2025-01-15"
+tags: ["Faculdade", "FIAP", "Experiência"]
 ---
 
-_[Leia em Português.](#)_
+## O Início da Jornada
 
-Este ano foi uma jornada de desafios, aprendizado e crescimento na faculdade. Desde o início, enfrentei mudanças significativas e descobertas que moldaram não apenas minha carreira acadêmica, mas também minha visão de futuro.
+A ansiedade e a empolgação marcaram meu primeiro dia na faculdade. Conhecer novos colegas, professores e a estrutura acadêmica foi emocionante. Logo percebi que estava entrando em uma fase completamente nova da minha vida, onde tudo dependia apenas de mim.
 
-<!-- more -->
+### Desafios Iniciais
 
-## Início do Ano
+Nos primeiros meses, adaptar-me à rotina universitária foi desafiador. A carga horária mais intensa e a necessidade de gerenciar o tempo entre aulas, estudos e vida pessoal me ensinaram muito sobre organização e disciplina, ainda mais morando a duas horas de distância da faculdade.
 
-Comecei o ano com grandes expectativas. Logo no primeiro semestre, enfrentei disciplinas desafiadoras como Estruturas de Dados e Algoritmos, que exigiram muito estudo e prática. Apesar das dificuldades, consegui me organizar e manter um bom desempenho.
+## Projetos Marcantes
 
-### Adaptação à Rotina
+### A Global Solution
 
-Conciliar estudos, projetos pessoais e momentos de lazer foi uma das maiores dificuldades. Descobri que criar uma rotina sólida e estabelecer prioridades foi essencial para lidar com a carga de tarefas.
+Participar do Global Solution logo no primeiro semestre foi uma experiência transformadora. Trabalhar em equipe para desenvolver uma solução inovadora relacionada à sustentabilidade me proporcionou aprendizado prático e novas perspectivas, tanto das minhas habilidades quanto em relação ao quão longe a tecnologia pode ir.
 
-![Estudante estudando](/static/img/posts/estudante.jpg)
+-   **Tema:** Uso da tecnologia para ajudar o ecossistema marinho.
+-   **Minha Contribuição:** Desenvolvimento da landing page da nossa solução.
 
-## Projetos de Destaque
+![Landing Page](/static/img/posts/next-wave-lp.png)
 
-Este ano também foi marcado por projetos práticos que contribuíram diretamente para o meu aprendizado.
+### O Challenge da FIAP
 
-### Desenvolvimento de Software
+Outro grande destaque foi o Challenge da FIAP. Nosso projeto de um portal dinâmico para a Fórmula E, que incluía estatísticas em tempo real e um jogo fantasy, foi um marco do ano, mesmo não tendo conseguido chegar ao FIAP Next.
 
-Participei de um projeto desafiador em equipe onde desenvolvemos uma aplicação para gestão de tarefas. Foi uma oportunidade incrível de aplicar conceitos aprendidos em sala de aula e experimentar ferramentas novas como React e Node.js.
+-   **Tecnologias usadas:** React, TailwindCSS, Express e MongoDB.
+-   **Minha Contribuição:** Desenvolvimento no front-end e no back-end.
+-   **Lições aprendidas:** Não confie no computador da faculdade, porque ele pode bloquear seu banco de dados kkkkkk.
 
-![Tela de aplicativo](/static/img/posts/app.jpg)
+Vídeo de apresentação: [clique aqui](https://www.youtube.com/watch?v=f-8zW7DNt2Y&t=2s).
 
-### Evento Acadêmico
+## Minha Bolsa Mérito
 
-Outro ponto alto foi minha participação em um evento acadêmico, onde apresentei um artigo sobre sustentabilidade em TI. A experiência de compartilhar meu trabalho com outros estudantes e profissionais foi enriquecedora.
+Um dos marcos mais importantes foi receber a bolsa mérito, conquistada pelo desempenho acadêmico. Esse reconhecimento foi uma injeção de ânimo para enfrentar os desafios que viriam e me fez acreditar que, sim, é possível conquistar tudo o que estou almejando, mesmo que eu tenha que quase não dormir.
 
-## Aprendizados e Reflexões
+![Boletim primeiro ano](/static/img/posts/boletim-1-ano.png)
 
-Mais do que o conhecimento técnico, aprendi a importância de trabalhar em equipe, gerenciar meu tempo e buscar equilíbrio entre a vida acadêmica e pessoal.
+## Lições Aprendidas
 
-### Desafios Superados
-
-Um dos maiores desafios foi manter a motivação durante os momentos difíceis. A pressão por resultados e a quantidade de tarefas muitas vezes me deixaram sobrecarregado, mas o apoio de amigos e professores fez toda a diferença.
-
-![Estudantes em grupo](/static/img/posts/grupo.jpg)
+Este primeiro ano me ensinou a importância da resiliência, do trabalho em equipe e da busca contínua por conhecimento. Aprendi que os desafios são oportunidades disfarçadas para crescer e evoluir, por mais que às vezes pareçam estressantes e desnecessários. Também percebi que a faculdade vai muito além de uma formação; ela traz conexões com pessoas que provavelmente serão úteis na minha vida, tanto pessoal quanto profissional e acadêmica.
 
 ## Conclusão
 
-Olhando para trás, vejo o quanto cresci como estudante e como pessoa. Este ano foi um marco na minha jornada acadêmica e me sinto mais preparado para os próximos desafios. Estou ansioso para continuar aprendendo e contribuindo com projetos que façam a diferença.
-
-Se você também teve um ano desafiador, lembre-se de que cada dificuldade enfrentada é uma oportunidade de aprendizado e crescimento. Vamos juntos fazer do próximo ano ainda melhor!
+Meu primeiro ano na faculdade foi mais do que uma fase acadêmica; foi um período de transformação pessoal. Estou ansioso pelos próximos anos dessa nova fase e pelas conquistas que ainda estão por vir.

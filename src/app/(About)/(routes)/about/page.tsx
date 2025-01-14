@@ -65,8 +65,8 @@ export default function AboutPage() {
                     <h3 className="text-2xl font-normal">Carreira</h3>
                     <ul className="space-y-8">
                         {career.map((role) => (
-                            <>
-                                <div key={role.title} className="space-y-2">
+                            <div className="space-y-12" key={role.title}>
+                                <div className="space-y-2">
                                     <h4 className="font-normal text-xl">
                                         {role.title}
                                     </h4>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                                     </div>
                                 </div>
                                 <Separator />
-                            </>
+                            </div>
                         ))}
                     </ul>
                 </aside>
@@ -115,8 +115,8 @@ export default function AboutPage() {
                     <h3 className="text-2xl font-normal">Formação</h3>
                     <ul className="space-y-8">
                         {academic.map((role) => (
-                            <>
-                                <div key={role.title} className="space-y-2">
+                            <div className="space-y-12" key={role.title}>
+                                <div className="space-y-2">
                                     <h4 className="font-normal text-xl">
                                         {role.title}
                                     </h4>
@@ -153,7 +153,7 @@ export default function AboutPage() {
                                     </div>
                                 </div>
                                 <Separator />
-                            </>
+                            </div>
                         ))}
                     </ul>
                 </aside>

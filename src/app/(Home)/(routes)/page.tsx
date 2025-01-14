@@ -10,15 +10,15 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className="flex items-center justify-center md:justify-start h-4/5">
-            <div className="space-y-4">
+        <div className="flex items-center justify-center h-4/5">
+            <div className="space-y-4 flex flex-col items-center">
                 <h1 className="text-4xl font-extrabold">Miguel Kapicius</h1>
                 <p className="font-light flex items-center gap-2">
                     Engenheiro de Software <Terminal />
                 </p>
-                <div className="flex gap-2 items-center">
-                    <Link href={"/about"}>
-                        <Button>
+                <div className="flex gap-2 items-center w-full">
+                    <Link className="flex-1" href={"/about"}>
+                        <Button className="w-full">
                             Começar <ArrowRight />
                         </Button>
                     </Link>

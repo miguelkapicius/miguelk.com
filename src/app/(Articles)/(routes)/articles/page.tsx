@@ -29,6 +29,9 @@ export default async function ArticlesPage() {
                                 <CardTitle className="text-2xl">
                                     {article.title}
                                 </CardTitle>
+                                <CardDescription>
+                                    {article.description}
+                                </CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <div className="flex items-center flex-wrap gap-2">
@@ -46,7 +49,7 @@ export default async function ArticlesPage() {
                             <CardFooter>
                                 <div className="flex gap-4">
                                     <Link href={`articles/${article.slug}`}>
-                                        <Button variant={"outline"}>
+                                        <Button>
                                             Ler Artigo
                                             <ArrowUpRight />
                                         </Button>

@@ -5,6 +5,7 @@ import fs from "fs";
 export interface Article {
     slug: string;
     title: string;
+    description: string;
     image?: string;
     date: string;
     tags?: string[];
@@ -24,6 +25,7 @@ export function getAllArticles() {
         return {
             slug: fileName.replace(/\.md$/, ""),
             title: data.title,
+            description: data.description,
             image: data.image,
             date: data.date,
             tags: data.tags || [],
@@ -42,6 +44,7 @@ export function getArticleBySlug(slug: string): Article | null {
     return {
         slug,
         title: data.title,
+        description: data.description,
         image: data.image,
         date: data.date,
         tags: data.tags || [],
