@@ -2,7 +2,7 @@
 title: "Meu Primeiro Ano na Faculdade"
 description: "Explore como foi meu primeiro ano na faculdade, uma experiência cheia de aprendizados, desafios e conquistas que marcaram o início da minha trajetória acadêmica."
 image: "/static/img/posts/first-year-college.jpg"
-date: "2025-01-15"
+date: "2025-01-14"
 tags: ["Faculdade", "FIAP", "Experiência"]
 ---
 
