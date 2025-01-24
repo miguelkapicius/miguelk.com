@@ -70,9 +70,8 @@ export default function AboutPage() {
                                     <h4 className="font-normal text-xl">
                                         {role.title}
                                     </h4>
-                                    <h5 className="flex items-center gap-2 text-base">
+                                    <h5 className="flex flex-col gap-2 text-base">
                                         <strong>{role.enterprise}</strong>{" "}
-                                        <Circle className="size-2" />
                                         {role.location}
                                     </h5>
                                     <div className="flex items-center gap-2">
