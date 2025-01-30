@@ -108,6 +108,28 @@ body {
     line-height: 48px;
 }
 
+.markdown-content ul {
+    list-style-type: square;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.markdown-content pre {
+    background-color: #e2f0ff0a;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.markdown-content code {
+    color: #f1f1f1;
+    line-height: 32px;
+    font-family: "Courier New", Courier, monospace;
+}
+
 @media (max-width: 500px) {
     html {
         font-size: 87.5%;
