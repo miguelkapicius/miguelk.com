@@ -8,6 +8,23 @@ interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Colaborative Task Manager",
+    description:
+      "Gerenciador de tarefas colaborativo fullstack, desenvolvido com NestJS (microsserviços, TypeORM, WebSockets) e React (Vite, React Router, shadcn/ui). Inclui auth-service, tasks-service e API Gateway, com atualização em tempo real entre usuários.",
+    stack: [
+      "NestJs",
+      "TypeORM",
+      "RabbitMQ",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vite",
+      "Tanstack Router",
+      "shadcn/ui",
+    ],
+    github: "https://github.com/miguelkapicius/task-manager-microservices",
+  },
+  {
     title: "FinTrack",
     description:
       "Um projeto fullstack desenvolvido com o objetivo de calcular investimentos baseados em juros compostos.",
