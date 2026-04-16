@@ -11,9 +11,12 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 import { usePathname } from "next/navigation";
-import { Download } from "lucide-react";
 
 const components: { title: string; href: string }[] = [
+  {
+    title: "Home",
+    href: "/",
+  },
   {
     title: "Sobre",
     href: "/about",
@@ -25,10 +28,6 @@ const components: { title: string; href: string }[] = [
   {
     title: "Projetos",
     href: "/projects",
-  },
-  {
-    title: "Jornada",
-    href: "/journey",
   },
 ];
 
@@ -57,22 +56,13 @@ export function Navigation() {
             </NavigationMenuItem>
           </Link>
         ))}
-        <NavigationMenuItem className="text-foreground/50 hover:bg-accent hover:text-foreground duration-200 py-2 px-4 rounded-md cursor-pointer">
-          <NavigationMenuLink
-            className={`uppercase text-sm font-light flex items-center gap-2`}
-            href="/CV.pdf"
-            download="/CV.pdf"
-          >
-            CV <Download size={16} />
-          </NavigationMenuLink>
-        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
 }
 
 const ListItem = React.forwardRef<
-  React.ElementRef<"a">,
+  HTMLAnchorElement,
   React.ComponentPropsWithoutRef<"a">
 >(({ className, title, children, ...props }, ref) => {
   return (

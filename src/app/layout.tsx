@@ -3,6 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/header/header";
 import { Footer } from "@/components/footer/footer";
+import { CustomCursor } from "@/components/cursor";
+import { PageTransition } from "@/components/page-transition";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 const poppins = Poppins({
@@ -26,9 +28,10 @@ export default function RootLayout({
         cz-shortcut-listen="true"
         className={`${poppins.className} font-light antialiased scroll-smooth flex flex-col min-h-screen`}
       >
+        <CustomCursor />
         <Header />
         <main className="flex-1 flex pb-12 mt-8 max-w-3xl px-6 mx-auto">
-          {children}
+          <PageTransition>{children}</PageTransition>
         </main>
         <Footer />
       </body>

@@ -4,6 +4,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    cursor: none;
+}
+
+* {
+    cursor: none !important;
 }
 
 
@@ -73,6 +78,12 @@ body {
     body {
         @apply bg-background text-foreground;
     }
+}
+
+.cursor-ring--hover {
+    width: 3rem !important;
+    height: 3rem !important;
+    opacity: 0.6;
 }
 
 ::-webkit-scrollbar {
